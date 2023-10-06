@@ -88,7 +88,7 @@ date_input.click()
 date_input.clear()
 date_input.send_keys("09-27-2023")  # เอาเป็นวันเดือนปีนะจ๊ะ
 
-time.sleep(20)
+time.sleep(5)
 
 department_dropdown = Select(driver.find_element(By.XPATH, "//select[@class='form-select']"))
 # เลือกแผนกที่คุณต้องการ (เช่น "ทันตกรรม")
